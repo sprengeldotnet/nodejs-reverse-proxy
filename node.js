@@ -1,8 +1,8 @@
 const http = require('http');
 http.createServer((req, res) => {
   var options = { 
-    hostname: hostname,       //IP Address or Domain
-    port: port,               //Port Number
+    hostname: '1.1.1.1',       //IP Address or Domain
+    port: 80,               //Port Number
     path: req.url,            //For example '/index.html'
     method: req.method,       //For example 'GET'
     headers: req.headers,     //UserAgent, Cookies etc.
